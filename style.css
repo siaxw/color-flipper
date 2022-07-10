@@ -46,12 +46,13 @@
 }
 
 .container__main p {
-	font-size: 80px;
+	font-size: 70px;
 	color: black;
 }
 
 .container__main p span {
 	color: var(--prime-color);
+	user-select: none;
 }
 
 .container__main button {
@@ -65,4 +66,8 @@
 
 .container__main button:hover {
 	background-color: var(--prime-color);
+}
+
+.show {
+	display: none;
 }
