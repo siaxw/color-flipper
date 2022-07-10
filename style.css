@@ -37,7 +37,7 @@
 
 .container__main {
 	width: auto;
-	height: 94vh;
+	height: 95vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -47,6 +47,7 @@
 
 .container__main p {
 	font-size: 80px;
+	color: black;
 }
 
 .container__main p span {
