@@ -68,6 +68,44 @@
 	background-color: var(--prime-color);
 }
 
+.container__main1 {
+	display: hidden;
+	width: auto;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fefdb0;
+}
+
+.container__main1 p {
+	font-size: 70px;
+	color: black;
+}
+
+.container__main1 p span {
+	color: var(--prime-color);
+	user-select: none;
+}
+
+.container__main1 button {
+	width: 120px;
+	height: 30px;
+	border: 1px solid var(--prime-color);
+	background-color: #ffffff;
+	border-radius: 12px;
+	transition: 0.3s;
+}
+
+.container__main1 button:hover {
+	background-color: var(--prime-color);
+}
+
 .show {
 	display: none;
+}
+
+.active {
+	color: var(--prime-color) !important;
 }
