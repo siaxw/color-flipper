@@ -35,6 +35,8 @@ const para = document.getElementById('main__p');
 const colorTab = document.getElementById('colorTab');
 const hexTab = document.getElementById('hexTab');
 
+hexBgc.style.display = "none";
+
 hexTab.addEventListener('click', () =>{
     bgc.style.display = "none";
     hexBgc.style.display = "flex";
